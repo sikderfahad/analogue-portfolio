@@ -1,7 +1,9 @@
 body {
+  max-width: 1700px;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  margin: auto;
   text-align: center;
   background-color: #f4f4f4;
 }
@@ -287,5 +289,110 @@ a {
 
   100% {
     background-position: 0% 50%;
+  }
+}
+
+/* Responsive */
+
+/* 🌐 Laptop & Desktop (above 1024px) */
+@media screen and (max-width: 1700px) {
+  body {
+    max-width: 1700px;
+  }
+}
+
+/* 📱 Tablets (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+  header h1 {
+    font-size: 20px;
+  }
+
+  .outlet {
+    width: 93%;
+    margin: 50px auto;
+  }
+  .profile {
+    gap: 25px;
+  }
+  .profile div p {
+    text-align: justify;
+    font-size: 16px;
+  }
+
+  .project-box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  section {
+    padding: 0px;
+  }
+  .sec-title {
+    margin: 100px 0px 50px 0;
+  }
+  form {
+    width: 80%;
+  }
+}
+
+/* 📱 Mobile Devices (up to 767px) */
+@media screen and (max-width: 767px) {
+  .project-box {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .profile {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .profile div p {
+    text-align: justify;
+    font-size: 18px;
+  }
+
+  .profile > *:nth-child(1) {
+    order: 2;
+  }
+  .profile > *:nth-child(2) {
+    order: 1;
+  }
+
+  header h1 {
+    font-size: 16px;
+  }
+  header p {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .outlet {
+    width: 95%;
+    margin: 50px auto;
+  }
+  .profile-thumb {
+    align-items: center;
+    justify-content: center;
+  }
+
+  section {
+    padding: 10px;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+  form {
+    width: 100%;
+  }
+  #contactForm {
+    padding: 20px 0px;
+  }
+  #contactForm div {
+    padding: 0 20px;
+  }
+  #contactForm button {
+    margin: 0 20px;
+  }
+  .sec-title {
+    margin: 100px 0px 50px 0;
   }
 }

@@ -27,7 +27,7 @@ If you have received this project as a ZIP file, extract it to your desired loca
 Alternatively, you can clone the repository from GitHub:
 
 ```sh
- git clone https://github.com/your-github-username/your-repo-name.git
+ git clone https://github.com/sikderfahad/analogue-portfolio
 ```
 
 ### 2. Open the Project
@@ -41,7 +41,7 @@ After extracting or cloning the repository:
 
 If hosted online, visit the following link to view the live project:
 
-[Live Demo](https://your-live-demo-link.com)
+[Live Demo](https://sikderfahad.github.io/analogue-portfolio/)
 
 ## Folder Structure
 
@@ -57,9 +57,9 @@ project-folder/
 
 If you have any questions or suggestions, feel free to reach out to me:
 
-- **Email**: your-email@example.com
-- **GitHub**: [GitHub Profile](https://github.com/your-github-username)
-- **LinkedIn**: [LinkedIn Profile](https://linkedin.com/in/your-profile)
+- **Email**: islamsajedul343@gmail.com
+- **GitHub**: [GitHub Profile](https://github.com/sikderfahad)
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/developer-sajedul)
 
 ---
 
